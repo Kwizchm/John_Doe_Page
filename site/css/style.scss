@@ -1,7 +1,16 @@
-a::before {
-    content: "link: ";
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 10px;
 }
 
-h1::after {
-    content: " after header";
+#AvatarCarousel {
+    width: 150px;
+}
+
+img {
+    margin: 10px;
 }

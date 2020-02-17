@@ -1,0 +1,7 @@
+a::before {
+    content: "link: ";
+}
+
+h1::after {
+    content: " after header";
+}

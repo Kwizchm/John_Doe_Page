@@ -114,14 +114,18 @@ button.btn-invisible {
     }
 }
 
-.blog-list {
+.list {
     margin: 0;
     width: 100%;
 }
 
-.blog-list-item {
+.list-item {
     margin: 10px;
     padding: 10px;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 // small

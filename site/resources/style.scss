@@ -1,4 +1,5 @@
 $bg_color: white;
+$font_color:black;
 h1,
 h2,
 h3,
@@ -6,11 +7,40 @@ h4,
 h5,
 h6 {
     margin: 10px;
-    color: black;
+    color: $font_color;
 }
 
 body {
     background-color: $bg_color;
+}
+
+.flexbox {
+    background-color: $bg_color;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.flexbox-basic {
+    @extend .flexbox;
+    margin: 10px;
+}
+
+.jumbotron-style,
+.flexbox-style {
+    background: url("img/white\ marble.jpg");
+    border-radius: 10px;
+}
+
+.flexbox-style {
+    h1,
+    h2,
+    h3,
+    h4,
+    h5,
+    h6 {
+        margin: 10px;
+    }
 }
 
 .friends-top-item {
@@ -54,6 +84,32 @@ body {
     margin: 10px;
 }
 
+#LeftJumbotron {
+    background-position: right;
+}
+
+.badge-grey {
+    background: #E7E7E7;
+    color: $font_color;
+}
+
+.AvatarCarousel {
+    width: 150px;
+    .img-thumbnail {
+        margin: 10px;
+    }
+}
+
+button.btn-invisible {
+    a,
+    h4 {
+        text-decoration: none;
+    }
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
+}
+
 // small
 @media (max-width: 991px) {
     #friends-person {
@@ -74,59 +130,4 @@ body {
         height: 500px;
         width: 70%;
     }
-}
-
-.flexbox {
-    background-color: $bg_color;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-}
-
-.flexbox-basic {
-    @extend .flexbox;
-    margin: 10px;
-}
-
-.jumbotron-style,
-.flexbox-style {
-    background: url("img/white\ marble.jpg");
-    border-radius: 10px;
-}
-
-.flexbox-style {
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6 {
-        margin: 10px;
-    }
-}
-
-#LeftJumbotron {
-    background-position: right;
-}
-
-.badge-grey {
-    background: #E7E7E7;
-    color: black;
-}
-
-.AvatarCarousel {
-    width: 150px;
-    .img-thumbnail {
-        margin: 10px;
-    }
-}
-
-button.btn-invisible {
-    a,
-    h4 {
-        text-decoration: none;
-    }
-    color: transparent;
-    background-color: transparent;
-    border-color: transparent;
 }

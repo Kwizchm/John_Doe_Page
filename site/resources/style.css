@@ -12,6 +12,32 @@ body {
   background-color: white;
 }
 
+.flexbox, .flexbox-basic {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexbox-basic {
+  margin: 10px;
+}
+
+.jumbotron-style,
+.flexbox-style {
+  background: url("img/white marble.jpg");
+  border-radius: 10px;
+}
+
+.flexbox-style h1,
+.flexbox-style h2,
+.flexbox-style h3,
+.flexbox-style h4,
+.flexbox-style h5,
+.flexbox-style h6 {
+  margin: 10px;
+}
+
 .friends-top-item {
   padding: 10px;
   justify-content: space-between;
@@ -53,52 +79,6 @@ body {
   height: 90%;
 }
 
-@media (max-width: 991px) {
-  #friends-person {
-    width: 100%;
-  }
-
-  #friends-list {
-    height: 100%;
-    width: 100%;
-  }
-}
-@media (min-width: 991px) {
-  #friends-person {
-    width: 26%;
-  }
-
-  #friends-list {
-    height: 500px;
-    width: 70%;
-  }
-}
-.flexbox, .flexbox-basic {
-  background-color: white;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-}
-
-.flexbox-basic {
-  margin: 10px;
-}
-
-.jumbotron-style,
-.flexbox-style {
-  background: url("img/white marble.jpg");
-  border-radius: 10px;
-}
-
-.flexbox-style h1,
-.flexbox-style h2,
-.flexbox-style h3,
-.flexbox-style h4,
-.flexbox-style h5,
-.flexbox-style h6 {
-  margin: 10px;
-}
-
 #LeftJumbotron {
   background-position: right;
 }
@@ -123,6 +103,27 @@ button.btn-invisible {
 button.btn-invisible a,
 button.btn-invisible h4 {
   text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  #friends-person {
+    width: 100%;
+  }
+
+  #friends-list {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (min-width: 991px) {
+  #friends-person {
+    width: 26%;
+  }
+
+  #friends-list {
+    height: 500px;
+    width: 70%;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

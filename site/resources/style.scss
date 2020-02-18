@@ -1,5 +1,9 @@
 $bg_color: white;
 $font_color:black;
+#LeftJumbotron {
+    background-position: right;
+}
+
 h1,
 h2,
 h3,
@@ -12,6 +16,16 @@ h6 {
 
 body {
     background-color: $bg_color;
+}
+
+button.btn-invisible {
+    a,
+    h4 {
+        text-decoration: none;
+    }
+    color: transparent;
+    background-color: transparent;
+    border-color: transparent;
 }
 
 .flexbox {
@@ -88,10 +102,6 @@ body {
     margin: 10px;
 }
 
-#LeftJumbotron {
-    background-position: right;
-}
-
 .badge-grey {
     background: #E7E7E7;
     color: $font_color;
@@ -104,14 +114,14 @@ body {
     }
 }
 
-button.btn-invisible {
-    a,
-    h4 {
-        text-decoration: none;
-    }
-    color: transparent;
-    background-color: transparent;
-    border-color: transparent;
+.blog-list {
+    margin: 0;
+    width: 100%;
+}
+
+.blog-list-item {
+    margin: 10px;
+    padding: 10px;
 }
 
 // small

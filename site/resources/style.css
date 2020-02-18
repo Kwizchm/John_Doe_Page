@@ -1,3 +1,7 @@
+#LeftJumbotron {
+  background-position: right;
+}
+
 h1,
 h2,
 h3,
@@ -10,6 +14,16 @@ h6 {
 
 body {
   background-color: white;
+}
+
+button.btn-invisible {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+button.btn-invisible a,
+button.btn-invisible h4 {
+  text-decoration: none;
 }
 
 .flexbox, .flexbox-basic {
@@ -83,10 +97,6 @@ body {
   height: 90%;
 }
 
-#LeftJumbotron {
-  background-position: right;
-}
-
 .badge-grey {
   background: #E7E7E7;
   color: black;
@@ -99,14 +109,14 @@ body {
   margin: 10px;
 }
 
-button.btn-invisible {
-  color: transparent;
-  background-color: transparent;
-  border-color: transparent;
+.blog-list {
+  margin: 0;
+  width: 100%;
 }
-button.btn-invisible a,
-button.btn-invisible h4 {
-  text-decoration: none;
+
+.blog-list-item {
+  margin: 10px;
+  padding: 10px;
 }
 
 @media (max-width: 991px) {

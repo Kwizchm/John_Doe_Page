@@ -1,0 +1,128 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 10px;
+  color: black;
+}
+
+body {
+  background-color: white;
+}
+
+.friends-top-item {
+  padding: 10px;
+  justify-content: space-between;
+  width: 100%;
+}
+.friends-top-item button {
+  padding: 0px;
+}
+
+#friends-person {
+  height: 500px;
+}
+
+.friends-person-item {
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  width: 100%;
+  height: 100%;
+}
+
+#friends-list {
+  margin-top: 8px;
+  margin-right: 0px;
+  width: 100%;
+}
+
+.friends-list-item {
+  justify-content: start;
+  align-items: center;
+  padding-left: 20px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  width: 100%;
+  height: 82px;
+  margin: 10px;
+}
+.friends-list-item img {
+  height: 90%;
+}
+
+@media (max-width: 991px) {
+  #friends-person {
+    width: 100%;
+  }
+
+  #friends-list {
+    height: 100%;
+    width: 100%;
+  }
+}
+@media (min-width: 991px) {
+  #friends-person {
+    width: 26%;
+  }
+
+  #friends-list {
+    height: 500px;
+    width: 70%;
+  }
+}
+.flexbox, .flexbox-basic {
+  background-color: white;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.flexbox-basic {
+  margin: 10px;
+}
+
+.jumbotron-style,
+.flexbox-style {
+  background: url("img/white marble.jpg");
+  border-radius: 10px;
+}
+
+.flexbox-style h1,
+.flexbox-style h2,
+.flexbox-style h3,
+.flexbox-style h4,
+.flexbox-style h5,
+.flexbox-style h6 {
+  margin: 10px;
+}
+
+#LeftJumbotron {
+  background-position: right;
+}
+
+.badge-grey {
+  background: #E7E7E7;
+  color: black;
+}
+
+.AvatarCarousel {
+  width: 150px;
+}
+.AvatarCarousel .img-thumbnail {
+  margin: 10px;
+}
+
+button.btn-invisible {
+  color: transparent;
+  background-color: transparent;
+  border-color: transparent;
+}
+button.btn-invisible a,
+button.btn-invisible h4 {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=style.css.map */

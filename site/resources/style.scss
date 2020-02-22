@@ -1,4 +1,6 @@
 $bg_color: white;
+$font: Raleway;
+$font_type: sans_serif;
 $font_color:black;
 #LeftJumbotron {
     background-position: right;
@@ -16,16 +18,18 @@ h6 {
 
 body {
     background-color: $bg_color;
+    font-family: $font, $font_type;
 }
 
 button.btn-invisible {
-    a,
-    h4 {
-        text-decoration: none;
-    }
     color: transparent;
     background-color: transparent;
     border-color: transparent;
+}
+
+button.btn-invisible a,
+button.btn-invisible+h4 {
+    text-decoration: none;
 }
 
 .flexbox {
@@ -85,6 +89,7 @@ button.btn-invisible {
 #friends-list {
     margin-top: 8px;
     margin-right: 0px;
+    margin-left: 0px;
     width: 100%;
 }
 

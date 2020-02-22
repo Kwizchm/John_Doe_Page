@@ -14,6 +14,7 @@ h6 {
 
 body {
   background-color: white;
+  font-family: Raleway, sans_serif;
 }
 
 button.btn-invisible {
@@ -21,8 +22,9 @@ button.btn-invisible {
   background-color: transparent;
   border-color: transparent;
 }
+
 button.btn-invisible a,
-button.btn-invisible h4 {
+button.btn-invisible + h4 {
   text-decoration: none;
 }
 
@@ -80,6 +82,7 @@ button.btn-invisible h4 {
 #friends-list {
   margin-top: 8px;
   margin-right: 0px;
+  margin-left: 0px;
   width: 100%;
 }
 
